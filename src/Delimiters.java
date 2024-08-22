@@ -30,11 +30,11 @@ public class Delimiters {
         for (Object delimiter : delimiters) {
             System.out.println(delimiter);
             if (delimiter.equals(openDel)) {
-                System.out.println("Open");
+                //System.out.println("Open");
                 balance++;
             }
             else if (delimiter.equals(closeDel)) {
-                System.out.println("Close");
+                //System.out.println("Close");
                 balance--;
             }
             if (balance < 0) {
